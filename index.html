@@ -71,7 +71,6 @@
     <div class="text-white font-heading font-bold text-xl">FJ BIKES</div>
     <nav class="hidden md:flex items-center gap-6">
       <a href="#home" class="text-white/70 hover:text-white transition-colors font-medium">Home</a>
-      <a href="#menu" class="text-white/70 hover:text-white transition-colors font-medium">Products</a>
       <a href="#gallery" class="text-white/70 hover:text-white transition-colors font-medium">Gallery</a>
       <a href="#contact" class="text-white/70 hover:text-white transition-colors font-medium">Contact</a>
     </nav>
@@ -96,11 +95,11 @@
       Best Selling Bicycle Shop in Malolos, Bulacan
     </p>
     <div class="flex flex-col sm:flex-row gap-4">
-      <a href="#menu" class="bg-[var(--color-primary)] text-white px-8 py-4 rounded-[var(--radius-btn)] font-bold hover:bg-[var(--color-secondary)] transition-colors text-center">
-        Shop Now
+      <a href="#contact" class="bg-[var(--color-primary)] text-white px-8 py-4 rounded-[var(--radius-btn)] font-bold hover:bg-[var(--color-secondary)] transition-colors text-center">
+        Contact Us
       </a>
-      <a href="#menu" class="border-2 border-white text-white px-8 py-4 rounded-[var(--radius-btn)] font-bold hover:bg-white hover:text-[var(--color-dark)] transition-colors text-center">
-        View Products ↓
+      <a href="#gallery" class="border-2 border-white text-white px-8 py-4 rounded-[var(--radius-btn)] font-bold hover:bg-white hover:text-[var(--color-dark)] transition-colors text-center">
+        View Gallery ↓
       </a>
     </div>
   </div>
@@ -118,83 +117,6 @@
     <a href="#contact" class="bg-[var(--color-dark)] text-white px-6 py-3 rounded-[var(--radius-btn)] font-bold hover:bg-[var(--color-primary)] transition-colors">
       Get Directions
     </a>
-  </div>
-</section>
-
-<section id="menu" class="py-20 px-4 bg-[var(--color-dark)]">
-  <div class="max-w-6xl mx-auto">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Our Products</h2>
-      <p class="text-white/70">Name it, we have it! High-end bikes for every riding style.</p>
-    </div>
-    
-    <div class="flex gap-3 overflow-x-auto pb-4 border-b border-white/20 mb-8" id="menu-tabs">
-      <button class="menu-tab px-6 py-2 rounded-full bg-[var(--color-primary)] text-white whitespace-nowrap font-medium" data-tab="all">All</button>
-      <button class="menu-tab px-6 py-2 rounded-full bg-white/10 text-white whitespace-nowrap font-medium hover:bg-white/20 transition" data-tab="mountain">Mountain</button>
-      <button class="menu-tab px-6 py-2 rounded-full bg-white/10 text-white whitespace-nowrap font-medium hover:bg-white/20 transition" data-tab="racer">Racer</button>
-      <button class="menu-tab px-6 py-2 rounded-full bg-white/10 text-white whitespace-nowrap font-medium hover:bg-white/20 transition" data-tab="bmx">BMX</button>
-      <button class="menu-tab px-6 py-2 rounded-full bg-white/10 text-white whitespace-nowrap font-medium hover:bg-white/20 transition" data-tab="folding">Folding</button>
-      <button class="menu-tab px-6 py-2 rounded-full bg-white/10 text-white whitespace-nowrap font-medium hover:bg-white/20 transition" data-tab="electric">Electric</button>
-    </div>
-    
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8" id="menu-items">
-      <div class="menu-item bg-white/5 rounded-[var(--radius-card)] overflow-hidden hover:bg-white/10 transition cursor-pointer" data-category="mountain">
-        <img src="images/gallery/01.jpg" alt="Mountain bike for off-road terrain" class="w-full h-36 object-cover" />
-        <div class="p-3">
-          <h3 class="font-heading font-bold text-white text-sm">Mountain Bikes</h3>
-          <p class="text-[var(--color-accent)] font-bold mt-1">Contact for Price</p>
-        </div>
-      </div>
-      <div class="menu-item bg-white/5 rounded-[var(--radius-card)] overflow-hidden hover:bg-white/10 transition cursor-pointer" data-category="racer">
-        <img src="images/gallery/02.jpg" alt="Racer bike for speed cycling" class="w-full h-36 object-cover" />
-        <div class="p-3">
-          <h3 class="font-heading font-bold text-white text-sm">Racer Bikes</h3>
-          <p class="text-[var(--color-accent)] font-bold mt-1">Contact for Price</p>
-        </div>
-      </div>
-      <div class="menu-item bg-white/5 rounded-[var(--radius-card)] overflow-hidden hover:bg-white/10 transition cursor-pointer" data-category="bmx">
-        <img src="images/gallery/03.jpg" alt="BMX bike for tricks and freestyle" class="w-full h-36 object-cover" />
-        <div class="p-3">
-          <h3 class="font-heading font-bold text-white text-sm">BMX Bikes</h3>
-          <p class="text-[var(--color-accent)] font-bold mt-1">Contact for Price</p>
-        </div>
-      </div>
-      <div class="menu-item bg-white/5 rounded-[var(--radius-card)] overflow-hidden hover:bg-white/10 transition cursor-pointer" data-category="folding">
-        <img src="images/gallery/04.jpg" alt="Folding bike for easy storage" class="w-full h-36 object-cover" />
-        <div class="p-3">
-          <h3 class="font-heading font-bold text-white text-sm">Folding Bikes</h3>
-          <p class="text-[var(--color-accent)] font-bold mt-1">Contact for Price</p>
-        </div>
-      </div>
-      <div class="menu-item bg-white/5 rounded-[var(--radius-card)] overflow-hidden hover:bg-white/10 transition cursor-pointer" data-category="electric">
-        <img src="images/gallery/05.jpg" alt="Electric bike for effortless riding" class="w-full h-36 object-cover" />
-        <div class="p-3">
-          <h3 class="font-heading font-bold text-white text-sm">Electric Bikes</h3>
-          <p class="text-[var(--color-accent)] font-bold mt-1">Contact for Price</p>
-        </div>
-      </div>
-      <div class="menu-item bg-white/5 rounded-[var(--radius-card)] overflow-hidden hover:bg-white/10 transition cursor-pointer" data-category="mountain">
-        <img src="images/gallery/06.jpg" alt="High-end mountain bike display" class="w-full h-36 object-cover" />
-        <div class="p-3">
-          <h3 class="font-heading font-bold text-white text-sm">Premium MTB</h3>
-          <p class="text-[var(--color-accent)] font-bold mt-1">Contact for Price</p>
-        </div>
-      </div>
-      <div class="menu-item bg-white/5 rounded-[var(--radius-card)] overflow-hidden hover:bg-white/10 transition cursor-pointer" data-category="racer">
-        <img src="images/gallery/07.jpg" alt="Road racer bike for competition" class="w-full h-36 object-cover" />
-        <div class="p-3">
-          <h3 class="font-heading font-bold text-white text-sm">Road Bikes</h3>
-          <p class="text-[var(--color-accent)] font-bold mt-1">Contact for Price</p>
-        </div>
-      </div>
-      <div class="menu-item bg-white/5 rounded-[var(--radius-card)] overflow-hidden hover:bg-white/10 transition cursor-pointer" data-category="electric">
-        <img src="images/gallery/08.jpg" alt="Electric bicycle with modern design" class="w-full h-36 object-cover" />
-        <div class="p-3">
-          <h3 class="font-heading font-bold text-white text-sm">E-Bikes</h3>
-          <p class="text-[var(--color-accent)] font-bold mt-1">Contact for Price</p>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -303,7 +225,6 @@
       <h3 class="font-heading font-bold mb-4">Quick Links</h3>
       <ul class="space-y-2 text-white/60 text-sm">
         <li><a href="#home" class="hover:text-white transition">Home</a></li>
-        <li><a href="#menu" class="hover:text-white transition">Products</a></li>
         <li><a href="#gallery" class="hover:text-white transition">Gallery</a></li>
         <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
       </ul>
@@ -330,29 +251,6 @@
     previewBanner.classList.add('hidden');
     mainNav.classList.remove('top-8');
     mainNav.classList.add('top-0');
-  });
-
-  const menuTabs = document.querySelectorAll('.menu-tab');
-  const menuItems = document.querySelectorAll('.menu-item');
-
-  menuTabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      menuTabs.forEach(t => {
-        t.classList.remove('bg-[var(--color-primary)]');
-        t.classList.add('bg-white/10');
-      });
-      tab.classList.remove('bg-white/10');
-      tab.classList.add('bg-[var(--color-primary)]');
-
-      const category = tab.getAttribute('data-tab');
-      menuItems.forEach(item => {
-        if (category === 'all' || item.getAttribute('data-category') === category) {
-          item.style.display = 'block';
-        } else {
-          item.style.display = 'none';
-        }
-      });
-    });
   });
 </script>
 
